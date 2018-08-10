@@ -1,0 +1,60 @@
+新手前端工程師練習實作參考
+
+* 因為要學習WEB寫程式的範圍很廣泛，所以這裡提供一個快速的實作目標，讓你快速通過新手村。
+* 詳細可以參考這篇：https://github.com/goodjack/developer-roadmap-chinese web developer 但是看完後，多數人會直接放棄。
+* 底下提供比較簡單開始的新手村，讓開發者可以自己練習。
+* 指說明需要完成的元素，內容請自行想像與設計。當成一個屬於自己的作品呈現空間。
+
+### 使用純文字編輯器操作系統
+* Sublime https://www.sublimetext.com/
+* VSCODE https://code.visualstudio.com/
+* ATOM https://atom.io/
+* NotePAD++ https://notepad-plus-plus.org/zh/
+* 熟悉上面至少 2 套文字編輯器，並且可以使用他的外掛。
+
+### 使用 github 建立一個屬於自己的網站。
+* 選一個 GIT 工具, https://git-scm.com/download/gui/windows , 可以選 SourceTree 或 https://git-scm.com/download/win
+* 需要能夠透過 git 工具上傳及維護網站。
+* 了解 git 的 pull , clone , merge, getch, commit, push, add 功能與用法
+* 了解 branch, master, orign 使用上的意義
+* 參考：https://gitbook.tw/chapters/github/using-github-pages.html
+
+###  使用 bootstrap 4 規劃你的網站版面
+* 參考：https://getbootstrap.com/docs/4.1/examples/
+* 使用 Grid 排版，編排出一個可以放作品的網站版型。
+* 可以善用 bootstrap 的各種元件，完成你的目標。
+* 調整你的版面, 讓他在 Mobile 環境下，也可以不會太糟糕。
+* 使用自訂的 CSS 讓你的 Bootstrap 4 看起來和別人不一樣。
+
+### 使用 Jquery 的 API
+* 使用 Jquery 的 fadein 及 fadeout 建立一個頁面的浮動視窗，並且可以透過 click button 開啟或關閉。
+* 浮動視窗，需要有資訊內容的呈現。
+* 參考： http://api.jquery.com/fadein/
+
+### 透過 ES6 的 fetch 功能取得 json 文字檔
+* 檔案: fetch.html 此檔案可以透過 button 點擊後取得 fetch.json 檔案的內容, 內容動態放在 fetch.html 頁面上。
+* 檔案: fetch.json 產生一個可以展示用的 json 格式檔案
+* 參考：https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch
+
+### 上面 getch 的動作，使用 Jquery 函式做一次
+* 參考：https://www.w3schools.com/jquery/jquery_ajax_get_post.asp
+
+### 使用 DataTables 元件
+* 參考 https://datatables.net/examples/server_side/simple.html 使用 HTML (DOM) sourced data 方式顯示並控制表格內容。
+* 參考 https://datatables.net/examples/server_side/simple.html 方法，使用 Server-side processing 方式呈現表格內容。
+
+### 在 JSBIN、Codepen 及 JSFIDDLE 建立帳號，並測試程式
+* https://jsbin.com/
+* https://jsfiddle.net/
+* https://codepen.io/
+
+### 簡易PHP 程式編寫測試
+* 沙箱測試網站 http://sandbox.onlinephpfunctions.com/
+* 參考文件 https://www.w3schools.com/pHP/default.asp
+
+#### 申請免費的空間來放PHP程式
+* https://infinityfree.net/
+
+
+----
+udate: 20180810 by mtchang
