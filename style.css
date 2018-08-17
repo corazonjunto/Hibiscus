@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+font-family:"微軟正黑體";
+}
+
+#header
+{
+width:1000px;
+height:240px;
+margin:0 auto;
+}
+
+#header h1
+{
+width:1000px;
+height:240px;
+background-image:url(image/blue%20banner.jpg);
+}
+
+#nav
+{
+width:1000px;
+margin:0 auto;
+overflow:hidden;
+line-height:50px;
+font-size:17px;
+}
+
+
+#nav ul
+{
+margin:0 0;
+padding:0 0;
+}
+
+
+#nav ul li
+{
+list-style-type:none;
+float:left;
+margin-right:1px;
+}
+
+#nav ul li a
+{
+display:block;
+width:249px;
+color:#FFFFFF;
+background-color:#333333;
+letter-spacing:2px;
+text-align:center;
+text-decoration:none;  
+}
+
+#nav li a:hover
+{
+background-color:#66CCFF;
+}
+
+#lession1
+{
+float:right;
+margin-top:2px;
+}
+
+
+
+
+
