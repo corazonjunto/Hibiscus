@@ -1,0 +1,27 @@
+
+.header
+{
+	background-color:#FFC;
+	height:45px;
+	width:100%;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	z-index: 4;
+}
+
+
+
+.page
+{
+	width:960px;
+	margin:auto;
+}
+
+
+.clear
+{
+	clear:both;
+}
+
+
