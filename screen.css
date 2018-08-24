@@ -35,33 +35,51 @@ width:650px;
 	margin:auto;
 }
 
-.youtube_topmenu
+.header_container
 {
-	background-color:#ffffff;
-	height:60px;
-	width:100%;
-	position: fixed;
-	top: 0px;
-	left: 0;
-	z-index: 2;
+    background-color: ##8a97980d;
+	height:120px;
+	width:100%;    
 }
 
-.youtubelogo
+.youtube_logo
 {
-	height:60px;
-	width:100%;
-	position: fixed;
-	top: 0px;
-	left: 0;
-	z-index: 2;
+    background-color: ##8a97980d;
 }
 
-.youtube_func_menu
+.youtube_search
+{
+    background-color: ##8a97980d;
+}
+
+
+
+.youtube_body
+{
+    background-color: ##8a97980d;
+}
+
+.youtube_menu
+{
+    background-color: #4840401a;
+}
+
+.menu_item
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu_icon
 {
     
 }
 
-$custom-file-text: (
-  en: "Browse",
-  es: "Elegir"
-);
+.menu_text
+{
+    
+}
+
+
+
+
