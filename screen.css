@@ -35,3 +35,33 @@ width:650px;
 	margin:auto;
 }
 
+.youtube_topmenu
+{
+	background-color:#ffffff;
+	height:60px;
+	width:100%;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	z-index: 2;
+}
+
+.youtubelogo
+{
+	height:60px;
+	width:100%;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	z-index: 2;
+}
+
+.youtube_func_menu
+{
+    
+}
+
+$custom-file-text: (
+  en: "Browse",
+  es: "Elegir"
+);
