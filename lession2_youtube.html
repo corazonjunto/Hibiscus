@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -11,55 +11,59 @@
 
     <title>Youtube text</title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<link rel="shortcut icon" type="image/png" href="favicon.png"/>
-<link href="screen.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+    
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link href="screen.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
+<body>
       
-    <!-- 頭部 -->  
-    <div class="header">
-        
-        <div class="row">
-          <div class="col-sm-2">
-            <a href="index.html">
-            <img src="image/logo.png" width="79" height="43">
-            </a>
-         </div>
+<!-- 頭部 -->  
 
-         <div class="col-sm-10">
-            <div class="search">
-                <script>
-                  (function() {
-                    var cx = '007420059771858638792:r9ar4s3wowi';
-                    var gcse = document.createElement('script');
-                    gcse.type = 'text/javascript';
-                    gcse.async = true;
-                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                    var s = document.getElementsByTagName('script')[0];
-                    s.parentNode.insertBefore(gcse, s);
-                  })();
-                </script>
-                <gcse:search></gcse:search>
-            </div>          
+<div class="container header_container">
+    <div class="row">
+      <div class="col-sm-2 youtube_logo">
+        <a href="index.html">
+        <img src="image/logo.png" width="79" height="43">
+        </a>
+     </div>
 
-            <div class="clear"></div>
-        </div>	
-        </div>
+     <div class="col-sm-10 youtube_search">
+Serach
+
+     </div>	
         
     </div>
+
+</div>
       
       
 <!-- 身體 -->
+
+<div class="container">
 <div class="row">
 
     <!-- 左邊內容 -->
-    <div class="col-sm-2">
-        <p><a href="">首頁</a></p>
-        <p><a href="">熱門影片</a></p>
+    <div class="col-3 youtube_menu">
+        <div class="menu_item">
+            <span class="menu_icon">
+<svg id="i-home" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M12 20 L12 30 4 30 4 12 16 2 28 12 28 30 20 30 20 20 Z" />
+</svg>           
+            </span>
+            <span class="menu_text"><a href="">首頁</a></span>
+        </div>
+        
+        <div>
+            <span class="menu_icon"><i class="material-icons">face</i></span>
+            <span class="menu_text"><a href="">熱門影片</a></span>
+
+        </div>
+        
         <p><a href="">訂閱內容</a></p>
         <p><a href="">觀看紀錄</a></p>
         <p><a href="">稍後觀看</a></p>
@@ -68,8 +72,9 @@
     </div>
 
 
+
     <!-- 右邊內容-->
-    <div class="col-sm-10">
+    <div class="col youtube_body">
       <p>推薦熱門影片</p>
 
     
@@ -88,16 +93,19 @@
             <br>觀看次數：420萬
         </div>              
   </div>
-      
+
+
+    
 </div>
 <!-- 身體 END-->
-
+</div>
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   
