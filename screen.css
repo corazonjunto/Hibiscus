@@ -37,26 +37,26 @@ width:650px;
 
 .header_container
 {
-    background-color: ##8a97980d;
-	height:120px;
+    background-color: #8a97980d;
+	height:90px;
 	width:100%;    
 }
 
 .youtube_logo
 {
-    background-color: ##8a97980d;
+    background-color: #8a97980d;
 }
 
 .youtube_search
 {
-    background-color: ##8a97980d;
+    background-color: #8a97980d;
 }
 
 
 
 .youtube_body
 {
-    background-color: ##8a97980d;
+    background-color: #8a97980d;
 }
 
 .youtube_menu
@@ -77,9 +77,41 @@ width:650px;
 
 .menu_text
 {
-    
+font-size: 14px;
+color: black;
+text-decoration:none;
+}
+
+.popular
+{
+font-size: 15px;
 }
 
 
+.youtubevideo
+{
+float: left;
+padding-right: 3px;
+padding-bottom: 10px;	
+padding-top: 7px;
+}
 
+.title
+{
+font-size: 15px;
+color:rgb(70, 70, 65);
+}
 
+.author
+{
+font-size: 12px;
+color: rgb(118, 126, 123);	
+}
+
+.searchbox
+{
+	padding-bottom: 5px;	
+	padding-top: 5px;
+	padding-left: 90px;
+	position: fixed;
+}
