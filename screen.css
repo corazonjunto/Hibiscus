@@ -1,55 +1,24 @@
-.search
-{
-float:left;
-position:fixed;
-z-index:3;
-width:650px;
-}
-
-.header
-{
-	background-color:#ffffff;
-	height:60px;
-	width:100%;
-	position: fixed;
-	top: 0px;
-	left: 0;
-	z-index: 2;
-}
-
-.page
-{
-	width:960px;
-	margin:auto;
-	float:left;
-}
-
-.clear
-{
-	clear:both;
-}
-
-.page2
-{
-	width:1000px;
-	margin:auto;
-}
-
 .header_container
 {
-    background-color: #8a97980d;
-	height:90px;
+    background-color:#09F;
+	height:40px;
 	width:100%;    
 }
 
 .youtube_logo
 {
-    background-color: #8a97980d;
+    background-color: #ffffff;
+	z-index:4;
+	position: fixed;
+	
 }
 
 .youtube_search
 {
-    background-color: #8a97980d;
+    background-color: #ffffff;
+	z-index:3;
+	position: fixed;
+	padding-left: 200px;
 }
 
 
@@ -57,6 +26,7 @@ width:650px;
 .youtube_body
 {
     background-color: #8a97980d;
+	padding:5px;
 }
 
 .youtube_menu
@@ -72,14 +42,16 @@ width:650px;
 
 .menu_icon
 {
-    
+float:left;    
 }
 
 .menu_text
 {
-font-size: 14px;
-color: black;
-text-decoration:none;
+font-size: 15px;
+width:1000px;
+margin:0 auto;
+overflow:hidden;
+line-height:40px;
 }
 
 .popular
@@ -110,8 +82,24 @@ color: rgb(118, 126, 123);
 
 .searchbox
 {
-	padding-bottom: 5px;	
-	padding-top: 5px;
-	padding-left: 90px;
-	position: fixed;
+padding-bottom: 5px;	
+padding-top: 5px;
+padding-left: 90px;
 }
+
+.menu_text a
+{
+display:block;
+width:160px;
+background-color:##4840401a;
+letter-spacing:2px;
+text-align:center;
+text-decoration:none;  
+}
+
+.menu_text a:hover
+{
+background-color:#999;
+}
+
+
