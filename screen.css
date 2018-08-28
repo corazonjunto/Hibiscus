@@ -42,7 +42,8 @@
 
 .menu_icon
 {
-float:left;    
+float:left;
+position:inherit;
 }
 
 .menu_text
@@ -85,6 +86,7 @@ color: rgb(118, 126, 123);
 padding-bottom: 5px;	
 padding-top: 5px;
 padding-left: 90px;
+float:left;
 }
 
 .menu_text a
@@ -94,7 +96,7 @@ width:160px;
 background-color:##4840401a;
 letter-spacing:2px;
 text-align:center;
-text-decoration:none;  
+text-decoration:none;
 }
 
 .menu_text a:hover
@@ -102,4 +104,8 @@ text-decoration:none;
 background-color:#999;
 }
 
-
+.right_icon
+{
+position:absolute;
+right:90px;
+}
