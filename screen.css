@@ -96,7 +96,7 @@ display:block;
 width:160px;
 background-color:##4840401a;
 letter-spacing:2px;
-text-align:center;
+text-align:left;
 text-decoration:none;
 }
 
@@ -108,7 +108,7 @@ background-color:#999;
 .right_icon
 {
 position:absolute;
-right:90px;
+left:1000px;
 }
 
 .clear
