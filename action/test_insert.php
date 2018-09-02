@@ -4,7 +4,12 @@ echo "<br>";
 
 
 $message['account'] = $_POST['account'];
+$message['password'] = $_POST['password'];
+$message['name'] = $_POST['name'];
+$message['sex'] = $_POST['sex'];
 $message['email'] = $_POST['email'];
+$message['phonenumber'] = $_POST['phonenumbe'];
+$message['address'] = $_POST['address'];
 var_dump($message);
 echo "<br>";
 
