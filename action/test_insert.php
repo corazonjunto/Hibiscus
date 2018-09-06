@@ -3,13 +3,14 @@ var_dump($_POST);
 echo "<br>";
 
 
-$message['account'] = $_POST['account'];
+$message['text'] = $_POST['account'];
 $message['password'] = $_POST['password'];
-$message['name'] = $_POST['name'];
-$message['sex'] = $_POST['sex'];
+$message['text'] = $_POST['name'];
+$message['text'] = $_POST['sex'];
 $message['email'] = $_POST['email'];
-$message['phonenumber'] = $_POST['phonenumbe'];
-$message['address'] = $_POST['address'];
+$message['text'] = $_POST['phonenumber'];
+$message['text'] = $_POST['birthday'];
+$message['text'] = $_POST['address'];
 var_dump($message);
 echo "<br>";
 
@@ -31,7 +32,7 @@ if ($conn->connect_error) {
 } 
 
 // 從 test 取出資料
-$sql = "INSERT INTO `test` (`id`, `name`, `message`) VALUES (NULL, '".$_POST['name']."', '".$message_json."');";
+$sql = "INSERT INTO `test` (`account`, `password`, `name`, `sex`, `email`, `phonenumber`, `birthday`,`address`) VALUES (NULL, '".$_POST['name']."', '".$message_json."');";
 var_dump($sql);
 
 

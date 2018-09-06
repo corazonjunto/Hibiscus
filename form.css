@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.member
+{
+width: 600px;
+height: 300px;
+position: absolute;
+top: 30%;
+left: 50%;
+margin: -150px 0 0 -300px;
+}
+
+body
+{
+font-family:Arial, Helvetica, sans-serif, 微軟正黑體;
+}
