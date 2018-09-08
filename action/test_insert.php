@@ -32,7 +32,7 @@ if ($conn->connect_error) {
 } 
 
 // 從 test 取出資料
-$sql = "INSERT INTO `test` (`account`, `password`, `name`, `sex`, `email`, `phonenumber`, `birthday`,`address`) VALUES (NULL, '".$_POST['name']."', '".$message_json."');";
+$sql = "INSERT INTO `test` (`name`, `message`) VALUES ('".$_POST['name']."', '".$message_json."');";
 var_dump($sql);
 
 
