@@ -11,14 +11,23 @@
 
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
 	<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"/>
+
 
 	
 <script>	
-$(document).ready(function() {
+$(document).ready(function() {1
     $('#example').DataTable( {
-        "ajax": "lession3_datatables.txt"
+        "ajax": "lession3_datatables.txt",
+        "columns": [
+            { "data": "name[, ]" },
+            { "data": "hr.0" },
+            { "data": "office" },
+            { "data": "extn" },
+            { "data": "hr.2" },
+            { "data": "hr.1" }
+        ]
     } );
 } );
 </script>	
@@ -36,6 +45,26 @@ $(document).ready(function() {
     <div class="col">
 
 <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot>
 </table>
 
 	
