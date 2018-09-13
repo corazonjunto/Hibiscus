@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+<title>資料表單</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"/>
+
+<script>	
+$(document).ready(function() {1
+    $('#example').DataTable( {
+        "ajax": "test_select.php",
+        "columns": [
+		    { "data": "id" },
+            { "data": "name[, ]" },
+            { "data": "message" },
+        ]
+    } );
+} );
+</script>	
+</head>
+
+<body>
+<div class="container">
+    
+<h3>資料表單</h3>
+<div class="container">
+  <div class="row">
+    <div class="col">
+
+<table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>message</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>message</th>
+            </tr>
+        </tfoot>
+</table>
+
+	
+      </div>
+  </div>
+</div>
+
+    
+  <!-- Site footer -->
+  <footer class="footer">
+    <p></p>
+  </footer>
+
+</div> <!-- /container -->
+
+</body>
+</html>
