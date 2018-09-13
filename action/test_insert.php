@@ -3,18 +3,18 @@ var_dump($_POST);
 echo "<br>";
 
 
-$message['text'] = $_POST['account'];
+$message['account'] = $_POST['account'];
 $message['password'] = $_POST['password'];
-$message['text'] = $_POST['name'];
-$message['text'] = $_POST['sex'];
+$message['name'] = $_POST['name'];
+$message['sex'] = $_POST['sex'];
 $message['email'] = $_POST['email'];
-$message['text'] = $_POST['phonenumber'];
-$message['text'] = $_POST['birthday'];
-$message['text'] = $_POST['address'];
+$message['phonenumber'] = $_POST['phonenumber'];
+$message['birthday'] = $_POST['birthday'];
+$message['address'] = $_POST['address'];
 var_dump($message);
 echo "<br>";
 
-$message_json = json_encode($message);
+$message_json = json_encode($message, JSON_HEX_APOS);
 var_dump($message_json);
 echo "<br>";
 

@@ -24,6 +24,7 @@ if ($result->num_rows > 0) {
 		// var_dump($row);
 		//echo json_encode($row);
         echo "id: " . $row["id"]. " - Name: " . $row["name"]. " " . $row["message"]. "<br>";
+        var_dump(json_decode($row["message"]));
     }
 } else {
     echo "0 results";
