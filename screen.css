@@ -1,0 +1,117 @@
+.header_container
+{
+background-color:#09F;
+height:40px;
+width:100%;    
+}
+
+.youtube_logo
+{
+background-color: #ffffff;
+z-index:4;
+position: fixed;
+}
+
+.youtube_search
+{
+background-color: #ffffff;
+z-index:3;
+position: fixed;
+padding-left: 200px;
+}
+
+.youtube_body
+{
+background-color: #8a97980d;
+padding:5px;
+}
+
+.youtube_menu
+{
+background-color: #4840401a;
+}
+
+.menu_item
+{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.menu_icon
+{
+float:left;
+position:inherit;
+}
+
+.menu_text
+{
+font-size: 15px;
+width:1000px;
+margin:0 auto;
+overflow:hidden;
+line-height:40px;
+}
+
+.popular
+{
+font-size: 15px;
+}
+
+.again
+{
+font-size: 15px;
+}
+
+.youtubevideo
+{
+float: left;
+padding-right: 3px;
+padding-bottom: 20px;	
+padding-top: 7px;
+}
+
+.title
+{
+font-size: 15px;
+color:rgb(70, 70, 65);
+}
+
+.author
+{
+font-size: 12px;
+color: rgb(118, 126, 123);	
+}
+
+.searchbox
+{
+padding-bottom: 5px;	
+padding-top: 5px;
+padding-left: 90px;
+float:left;
+}
+
+.menu_text a
+{
+display:block;
+width:160px;
+background-color:##4840401a;
+letter-spacing:2px;
+text-align:left;
+text-decoration:none;
+}
+
+.menu_text a:hover
+{
+background-color:#999;
+}
+
+.right_icon
+{
+position:absolute;
+left:1000px;
+}
+
+.clear
+{
+clear:both;
+}
