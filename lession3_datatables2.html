@@ -18,8 +18,10 @@
 	
 <script>	
 $(document).ready(function() {
-    $('#example').DataTable();
-} );
+    $('#example').DataTable( {
+        "ajax": './lession3_datatables_ajaxdata.txt'
+    } );
+} )
 </script>	
 
 
