@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>提示框</title>
+
+<script type="text/javascript">
+function disp_prompt()
+  {
+  var name=prompt("請輸入您的名字","Bill Gates")
+  if (name!=null && name!="")
+    {
+    document.write("你好！" + name + " 今天過得怎麼樣？")
+    }
+  }
+</script>
+</head>
+<body>
+
+<input type="button" onclick="disp_prompt()" value="顯示提示框" />
+
+</body>
+</html>
