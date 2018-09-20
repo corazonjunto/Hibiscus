@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Continue</title>
+</head>
+
+<body>
+<p>點擊下面的按鈕來執行循環，該循環會跳過i=3。</p>
+<button onclick="myFunction()">點擊這裡</button>
+<p id="demo"></p>
+
+<script>
+function myFunction()
+{
+var x="",i=0;
+for (i=0;i<10;i++)
+  {
+  if (i==3)
+    {
+    continue;
+    }
+  x=x + "The number is " + i + "<br>";
+  }
+document.getElementById("demo").innerHTML=x;
+}
+</script>
+</body>
+</html>
